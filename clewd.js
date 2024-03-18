@@ -146,21 +146,7 @@ const ConfigPath = joinP(__dirname, './config.js'), LogPath = joinP(__dirname, '
 
 let uuidOrg, curPrompt = {}, prevPrompt = {}, prevMessages = [], prevImpersonated = false, Config = {
     Cookie: '',
-    CookieArray: [
-        "sessionKey=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",
-        "sessionKey=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",
-        "sessionKey=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",
-        "sessionKey=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",
-        "sessionKey=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",
-        "sessionKey=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",
-        "sessionKey=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",
-        "sessionKey=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",
-        "sessionKey=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",
-        "sessionKey=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",
-        "sessionKey=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",
-        "sessionKey=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",
-        "sessionKey=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"
-    ],
+    CookieArray: [],
     Cookiecounter: 3,
     CookieIndex: 0,
     ProxyPassword: '',
